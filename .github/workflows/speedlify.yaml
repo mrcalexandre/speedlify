@@ -22,7 +22,7 @@ jobs:
         run: cp -r results/. default/_data
 
       - name: Install npm dependencies
-        run: npm ci
+        run: npm install
         working-directory: default
 
       - name: Run test-pages
